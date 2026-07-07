@@ -1,0 +1,176 @@
+/* ===========================
+   SKILLS SECTION
+=========================== */
+
+.sec3{
+    padding:100px 0;
+}
+
+.sec-3-1{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.sec-3-1 span{
+    color:#00abf0;
+    font-size:18px;
+    font-weight:600;
+}
+
+.sec-3-2{
+    display:flex;
+    justify-content:center;
+}
+
+.box2{
+    width:100%;
+    max-width:900px;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
+    padding:40px;
+    transition:0.4s;
+}
+
+.box2:hover{
+    border-color:#00abf0;
+    box-shadow:0 15px 35px rgba(0,171,240,0.2);
+}
+
+.box2 h2{
+    text-align:center;
+    color:#00abf0;
+    margin-bottom:40px;
+    font-size:30px;
+}
+
+/* Skills Grid */
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.skills-1{
+    display:flex;
+    align-items:flex-start;
+    gap:15px;
+    padding:20px;
+    background:#112e42;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.skills-1:hover{
+    transform:translateY(-8px);
+    background:#163a52;
+}
+
+.skills-1 i{
+    font-size:24px;
+    color:#00abf0;
+    margin-top:5px;
+}
+
+.skills-1-2{
+    flex:1;
+}
+
+.skills-1-2 span:first-child{
+    display:block;
+    font-size:20px;
+    font-weight:600;
+    color:#ffffff;
+}
+
+.skills-1-2 span:last-child{
+    color:#b8c7d3;
+    font-size:15px;
+}
+
+/* Progress Bar */
+
+.progress{
+    width:100%;
+    height:8px;
+    background:#233f52;
+    border-radius:20px;
+    margin-top:10px;
+    overflow:hidden;
+}
+
+.progress div{
+    height:100%;
+    background:#00abf0;
+    border-radius:20px;
+}
+
+.html{
+    width:95%;
+}
+
+.css{
+    width:90%;
+}
+
+.js{
+    width:85%;
+}
+
+.bootstrap{
+    width:90%;
+}
+
+.react{
+    width:75%;
+}
+
+.git{
+    width:80%;
+}
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media(max-width:992px){
+
+.box2{
+    padding:30px;
+}
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.sec3{
+    padding:70px 0;
+}
+
+.skills{
+    grid-template-columns:1fr;
+}
+
+.box2{
+    padding:20px;
+}
+
+.box2 h2{
+    font-size:24px;
+}
+
+.skills-1{
+    padding:15px;
+}
+
+.skills-1-2 span:first-child{
+    font-size:18px;
+}
+
+}
